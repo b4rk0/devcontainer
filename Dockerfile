@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 ARG USER_UID=1000
-ARG USERNAME=devcontainer
+ARG USERNAME=neovim
 ARG USER_GID=$USER_UID
 
 # Needed for rate limits 

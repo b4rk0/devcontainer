@@ -3,12 +3,12 @@
 IS_LATEST        := $(IS_LATEST)
 GIT_COMMIT_HASH  := $(shell git rev-parse --short HEAD)
 
-NAME_VENDOR      := bananalab
+NAME_VENDOR      := darylwalsh
 NAME_PROJECT     := devcontainer
 NAME_IMAGE_REPO  := $(NAME_VENDOR)/$(NAME_PROJECT)
 
 help:
-	@ echo 'Welcome to Makefile of dwchiang/workshop'
+	@ echo 'Welcome to Makefile of darylwalsh/devcontainer'
 	@ echo
 	@ echo 'Usage: make [command]'
 	@ echo
